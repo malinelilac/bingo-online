@@ -3,19 +3,20 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #160096; /* Troque para a cor desejada */
 }
 
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 300ms;  background-color: #160096; /* Troque para a cor desejada */
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #000be4aa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #00212baa);
 }
 
 @keyframes logo-spin {

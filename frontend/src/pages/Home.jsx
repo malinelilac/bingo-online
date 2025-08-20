@@ -51,7 +51,7 @@ export default function Home({ onJoin }) {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-500 via-cyan-400 to-emerald-300 p-4">
       <div className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-2xl shadow-2xl p-8 w-full max-w-sm animate-fadeIn">
         <h1 className="text-3xl font-bold text-white text-center mb-6 drop-shadow-lg">
-          🎯 Bingo Online
+          🎯 Bingo da FGV
         </h1>
 
         <input
