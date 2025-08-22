@@ -48,7 +48,7 @@ export default function Home({ onJoin }) {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-500 via-cyan-400 to-emerald-300 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-500 via-blue-500 to-blue-700 p-4">
       <div className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-2xl shadow-2xl p-8 w-full max-w-sm animate-fadeIn">
         <h1 className="text-3xl font-bold text-white text-center mb-6 drop-shadow-lg">
           🎯 Bingo da FGV
@@ -61,7 +61,7 @@ export default function Home({ onJoin }) {
           onChange={(e) => setName(e.target.value)}
         />
         <button
-          className="w-full py-3 mb-4 rounded-lg font-semibold text-white bg-gradient-to-r from-yellow-400 to-orange-400 hover:scale-105 transition"
+          className="w-full py-3 mb-4 rounded-lg font-semibold text-white bg-gradient-to-r from-purple-700 to-fuchsia-800 hover:scale-105 transition"
           onClick={createRoom}
         >
           Criar Sala
